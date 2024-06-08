@@ -1,5 +1,5 @@
 import pandas as pd
-from run import get_google_sheet
+from setup_google_sheets import get_google_sheet
 
 class PlacesToVisit:
     REQUIRED_COLUMNS = {'Name', 'Location', 'Description', 'Category', 'Visited'}
