@@ -1,6 +1,6 @@
 ### README.md
 
-```markdown
+
 # Places to Visit Tracker
 
 This project is a command-line application for tracking places to visit, based on Google Sheets. It allows you to manage a list of places with options to add, update, remove, mark as visited, list, and search for places.
@@ -63,7 +63,7 @@ Before you begin, ensure you have met the following requirements:
 2. **Create and activate a virtual environment**:
    ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   source venv/bin/activate  
    ```
 
 3. **Install dependencies**:
@@ -110,19 +110,10 @@ places_to_visit/
 - argparse
 - gunicorn
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-```
-
 ### Important Notes
 
 1. **Security**: Ensure `creds.json` is listed in `.gitignore` to prevent it from being committed to the version control system.
-2. **Heroku Config**: If you are using environment variables for sensitive data, configure them in Heroku using the Heroku CLI:
-   ```bash
-   heroku config:set YOUR_ENV_VARIABLE=value
-   ```
-3. **Testing**: Before deploying to Heroku, ensure all functionalities are tested locally to avoid issues post-deployment.
+
 
 ### Detailed Instructions for Each Operation
 
